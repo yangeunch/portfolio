@@ -1,20 +1,164 @@
 main {
+  background: url(../images/bg.op1.jpg) no-repeat;
+  background-size: cover;
   width: 100%;
   padding: 100px;
   height: 100vh;
 }
 main h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.3;
   margin-bottom: 400px;
 }
 main h1 span {
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #faa5a5;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 main p {
   font-size: 1.5rem;
+}
+main .right_btn {
+  display: flex;
+  flex-flow: column nowrap;
+  position: fixed;
+  right: 50px;
+  bottom: 200px;
+}
+main .right_btn a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+main .right_btn a:nth-child(even) {
+  border: 1px solid #faa5a5;
+  border-radius: 50px;
+}
+main .right_btn a:nth-child(odd) {
+  border: 1px solid #414141;
+  border-radius: 50px;
+}
+
+.profile {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 80px;
+}
+.profile h1 {
+  font-size: 4.5rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.profile h1::after {
+  display: inline-block;
+  width: 220px;
+  height: 35px;
+  content: "";
+  background-color: #faa5a5;
+  border-radius: 50%;
+  position: relative;
+  left: -220px;
+  top: 20px;
+  opacity: 0.5;
+  z-index: -1;
+}
+.profile .p_container {
+  padding: 50px;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.profile .p_container img {
+  width: 400px;
+  height: 400px;
+}
+.profile .p_container .container_r {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.profile .p_container .container_r .r_top {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.profile .p_container .container_r .r_top h2 {
+  font-size: 2rem;
+}
+.profile .p_container .container_r .r_top h2::after {
+  display: inline-block;
+  width: 160px;
+  height: 25px;
+  content: "";
+  background-color: #faa5a5;
+  border-radius: 50%;
+  position: relative;
+  left: 0px;
+  top: -15px;
+  opacity: 0.5;
+  z-index: -1;
+}
+.profile .p_container .container_r .r_top p {
+  width: 200px;
+  margin: 0 15px;
+  font-size: 1.25rem;
+}
+.profile .p_container .container_r .r_bt {
+  display: flex;
+  padding: 15px;
+  margin-top: 20px;
+}
+.profile .p_container .container_r .r_bt h2 {
+  font-size: 2rem;
+}
+.profile .p_container .container_r .r_bt h2::after {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  content: "";
+  background-color: #faa5a5;
+  border-radius: 50%;
+  position: relative;
+  left: -70px;
+  top: 10px;
+  opacity: 0.5;
+  z-index: -1;
+}
+.profile .p_container .container_r .r_bt .tool {
+  margin-left: 130px;
+  width: 400px;
+  background: #faa5a5;
+}
+.profile .p_container .container_r .r_bt .tool p {
+  padding: 10px;
+  width: 200px;
+  font-size: 1.25rem;
+}
+.profile .p_container .container_r .r_bt .tool .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar {
+  width: 260px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .text {
+  background: yellow;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.profile .text h2 {
+  font-size: 3rem;
+}
+.profile .text p {
+  font-size: 1.15rem;
+  line-height: 1.5em;
 }/*# sourceMappingURL=design.css.map */
