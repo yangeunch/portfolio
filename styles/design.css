@@ -41,7 +41,7 @@ main .right_btn a:nth-child(odd) {
   border: 1px solid #414141;
   border-radius: 50px;
 }
-
+/* --------------------------profile---------------------------------- */
 .profile {
   width: 100%;
   height: 100vh;
@@ -67,14 +67,15 @@ main .right_btn a:nth-child(odd) {
 }
 .profile .p_container {
   padding: 50px;
-  height: 700px;
+  height: 500px;
   width: 1200px;
   margin: 0 auto;
   display: flex;
 }
 .profile .p_container img {
   width: 400px;
-  height: 400px;
+  height: 370px;
+  margin-top:50px;
 }
 .profile .p_container .container_r {
   margin-left: 50px;
@@ -106,6 +107,7 @@ main .right_btn a:nth-child(odd) {
   margin: 0 15px;
   font-size: 1.25rem;
 }
+/* ----------------------------bar------------------------------- */
 .profile .p_container .container_r .r_bt {
   display: flex;
   padding: 15px;
@@ -129,36 +131,92 @@ main .right_btn a:nth-child(odd) {
 }
 .profile .p_container .container_r .r_bt .tool {
   margin-left: 130px;
-  width: 400px;
-  background: #faa5a5;
+  width:500px;
 }
 .profile .p_container .container_r .r_bt .tool p {
-  padding: 10px;
+  padding: 10px; 
   width: 200px;
   font-size: 1.25rem;
 }
 .profile .p_container .container_r .r_bt .tool .box {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
-.profile .p_container .container_r .r_bt .tool .box .bar {
+/* -------------------------------통합 bar--------------------------------- */
+.profile .p_container .container_r .r_bt .tool .box .skill {
   width: 260px;
   height: 5px;
   background: #414141;
   border-radius: 20px;
 }
+/* -------------------------------개별 bar--------------------------------- */
+.profile .p_container .container_r .r_bt .tool .box .bar1 {
+  width: 240px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar2 {
+  width: 260px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar3 {
+  width: 200px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar4 {
+  width: 240px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar5 {
+  width: 200px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar6 {
+  width: 220px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+.profile .p_container .container_r .r_bt .tool .box .bar7 {
+  width: 220px;
+  height: 5px;
+  background: #414141;
+  border-radius: 20px;
+}
+/* -----------------------profile_btn------------------------------- */
 .profile .text {
-  background: yellow;
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: column nowrap;
+  width:1200px;
+  margin:0 auto;
+  padding-left:50px;
 }
 .profile .text h2 {
   font-size: 3rem;
+  padding:20px 0;
+}
+.profile .text h2::after {
+  display: inline-block;
+  width: 250px;
+  height: 20px;
+  content: "";
+  background-color: #faa5a5;
+  border-radius: 50%;
+  position: relative;
+  left: -240px;
+  top: 15px;
+  opacity: 0.5;
+  z-index: -1;
 }
 .profile .text p {
   font-size: 1.15rem;
   line-height: 1.5em;
+  padding-top:20px;
 }/*# sourceMappingURL=design.css.map */
