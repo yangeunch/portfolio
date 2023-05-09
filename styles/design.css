@@ -192,7 +192,7 @@ main .right_btn a:nth-child(odd) {
   background: #414141;
   border-radius: 20px;
 }
-/* -----------------------profile_btn------------------------------- */
+/* -----------------------profile_bt------------------------------- */
 .profile .text {
   width:1200px;
   margin:0 auto;
@@ -219,4 +219,47 @@ main .right_btn a:nth-child(odd) {
   font-size: 1.15rem;
   line-height: 1.5em;
   padding-top:20px;
-}/*# sourceMappingURL=design.css.map */
+}
+/* ---------------------------------web-------------------------- */
+.web {
+  /* background: cyan; */
+  width:100%;
+  height:100vh;
+  padding:50px 80px;
+}
+.web h1 {
+  font-size: 4.5rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.web h1::after {
+  display: inline-block;
+  width:150px;
+  height:30px;
+  content: "";
+  background-color: #faa5a5;
+  border-radius: 50%;
+  position: relative;
+  left: -150px;
+  top: 15px;
+  opacity: 0.5;
+  z-index: -1;
+}
+.web .web_container {
+  background: pink;
+  width:1400px;
+  margin:0 auto;
+  display:flex;
+  padding-top:50px;
+}
+.web .web_container_l {}
+.web .web_container_l img {}
+.web .web_container_r {
+  background: blue;
+}
+.web .web_container_r_top {}
+.web .web_container_r_top .r_l {}
+.web .web_container_r_top .r_l p {}
+.web .web_container_r_top .r_r {}
+.web .web_container_r_top .r_r p {}
+.web .web_container_r_top .web_container_r_bt {}
