@@ -1,0 +1,12 @@
+@media screen and (max-width:1024px) {
+    body {max-width:calc(100% - 60px);}
+    main .visual video {height:150%;}
+    header nav {display:none;}
+    main .circle .picture a:last-child {display: none;}
+}
+@media screen and (max-width:768px) {
+    main .contents .box3 {display:none;}
+    main .circle .picture a:nth-child(5) {display: none;}
+    main .circle .picture a:nth-child(4) {display: none;}
+    footer .rigth {display:none;}
+}
