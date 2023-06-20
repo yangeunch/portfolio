@@ -7,8 +7,38 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/design.css">
+    <link rel="stylesheet" href="./styles/click.js">
+    <style>
+        swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    swiper-slide img {
+        display: block;
+        width: 50%;
+        height: 35%;
+    }
+    swiper-slide .card {
+        display: block;
+        width: 25%;
+        height: 50%;
+    }
+    swiper-slide .card1 {
+        display: block;
+        width: 25%;
+        height: 50%;
+    }
+    </style>
 </head>
 <body>
     <main>
@@ -105,6 +135,24 @@
                         <a href="./zw/zepeto-main/index.html">Web prototype</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="sns">
+        <h1>Sns</h1>
+            <swiper-container class="mySwiper" navigation="true">
+        <swiper-slide><img src="./images/한율 배너.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="./images/라피네르.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="./images/옷배너.jpg" alt="" class="card"></swiper-slide>
+        <swiper-slide><img src="./images/화장품 .jpg" alt="" class="card1"></swiper-slide>
+    </swiper-container>
+    </div>
+    <div class="detail">
+        <h1>Detail</h1>
+        <div class="detail_container">
+            <div class="wrap1">
+                <a href="./images/상세페이지.jpg" class="santa"><img src="./images/상세페이지.jpg" alt=""></a>
+                <a href="./images/핸드워시 JPG.jpg" class="hand"><img src="./images/핸드워시 JPG.jpg" alt=""></a>
             </div>
         </div>
     </div>
